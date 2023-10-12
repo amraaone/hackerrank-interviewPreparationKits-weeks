@@ -12,3 +12,15 @@ arr = ['a', 'b', 'c', 'd']
 count_of_b = arr.count('b')
 print(count_of_b)  # This will output 1, as 'b' appears once in the list 'arr'.
 
+## Lonely Integer - Explanation
+
+use the XOR operation, each element of array 
+
+```python
+
+unique = 0 #initialize
+for num in arr:
+	unique ^= num
+return unique
+
+
