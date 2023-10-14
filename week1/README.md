@@ -23,4 +23,19 @@ for num in arr:
 	unique ^= num
 return unique
 
+## Flipping Bits Problem
+```python
+
+def flippingBits(n):
+    # Create a binary string with leading zeros and flip the bits
+    flipped_string = ''.join(['1' if bit == '0' else '0' for bit in f"{n:032b}"])
+
+    # Convert the flipped binary string to an integer
+    flipped_value = int(flipped_string, 2)
+
+    return flipped_value
+
+first create n integer number convert to string then integer array
+after that flip 0 -> 1 & 1 -> 0 map, convert to 2byte integer
+
 
