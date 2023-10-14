@@ -15,16 +15,17 @@ import sys
 #  2. STRING_ARRAY queries
 #
 
+
 def matchingStrings(strings, queries):
-    result=[]
+    result = []
     for items in range(len(queries)):
         a = strings.count(queries[items])
         result.append(a)
     return result
-    
-    
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+
+if __name__ == "__main__":
+    fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     strings_count = int(input().strip())
 
@@ -44,8 +45,7 @@ if __name__ == '__main__':
 
     res = matchingStrings(strings, queries)
 
-    fptr.write('\n'.join(map(str, res)))
-    fptr.write('\n')
+    fptr.write("\n".join(map(str, res)))
+    fptr.write("\n")
 
     fptr.close()
-

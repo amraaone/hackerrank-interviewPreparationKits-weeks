@@ -13,6 +13,7 @@ import sys
 # The function accepts INTEGER_ARRAY a as parameter.
 #
 
+
 def lonelyinteger(a):
     # Write your code here
     unique = 0
@@ -20,8 +21,9 @@ def lonelyinteger(a):
         unique ^= num
     return unique
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+if __name__ == "__main__":
+    fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     n = int(input().strip())
 
@@ -29,7 +31,6 @@ if __name__ == '__main__':
 
     result = lonelyinteger(a)
 
-    fptr.write(str(result) + '\n')
+    fptr.write(str(result) + "\n")
 
     fptr.close()
-

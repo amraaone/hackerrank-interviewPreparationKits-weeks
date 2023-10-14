@@ -14,18 +14,19 @@ from datetime import datetime
 # The function accepts STRING s as parameter.
 #
 
+
 def timeConversion(s):
     # Write your code here
-    return str(datetime.strptime(str(s), '%I:%M:%S%p').strftime('%H:%M:%S'))
+    return str(datetime.strptime(str(s), "%I:%M:%S%p").strftime("%H:%M:%S"))
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+if __name__ == "__main__":
+    fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     s = input()
 
     result = timeConversion(s)
 
-    fptr.write(result + '\n')
+    fptr.write(result + "\n")
 
     fptr.close()
-

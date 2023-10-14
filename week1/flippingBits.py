@@ -13,18 +13,19 @@ import sys
 # The function accepts LONG_INTEGER n as parameter.
 #
 
+
 def flippingBits(n):
     # Create a binary string with leading zeros and flip the bits
-    flipped_string = ''.join(['1' if bit == '0' else '0' for bit in f"{n:032b}"])
-    
+    flipped_string = "".join(["1" if bit == "0" else "0" for bit in f"{n:032b}"])
+
     # Convert the flipped binary string to an integer
     flipped_value = int(flipped_string, 2)
-    
+
     return flipped_value
 
 
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+if __name__ == "__main__":
+    fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     q = int(input().strip())
 
@@ -33,7 +34,6 @@ if __name__ == '__main__':
 
         result = flippingBits(n)
 
-        fptr.write(str(result) + '\n')
+        fptr.write(str(result) + "\n")
 
     fptr.close()
-
