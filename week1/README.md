@@ -38,8 +38,11 @@ def flippingBits(n):
 first create n integer number convert to string then integer array
 after that flip 0 -> 1 & 1 -> 0 map, convert to 2byte integer
 
-## Counting sort 
+## Counting sort Problem
 The countingSort function counts how many times each integer appears in the given array.
 
 arr = [1,4,3,666,3,2,1] 
 output is: result = [1,0,1,0,1,0,1] etc.
+
+## Pangram Problem
+The sentence contains all English alphabets, making it a pangram.
