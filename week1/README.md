@@ -50,3 +50,14 @@ The sentence contains all English alphabets, making it a pangram.
 ## Permute two Arrays Problem
 from input arrays and some integers gets in function. 
 must be read constraints and explanation ty
+
+## Subarray Division 1 Problem
+Lily and Ron want to share a chocolate bar. The chocolate bar consists of squares, and each square has a number on it. Ron's birth month is represented by the variable m, and his birth day is represented by the variable d.
+
+Lily wants to break the chocolate bar into segments of length m, and she wants to do it in a way that the sum of the numbers on the squares in each segment equals Ron's birth day d.
+
+For example, let's say the chocolate bar is [2, 2, 1, 3, 2], Ron's birth day is 4, and his birth month is 2. Lily wants to find all possible ways to break the chocolate bar into segments of length 2 where the sum of the numbers in each segment equals 4. In this case, there are two such ways:
+
+She can choose the first two squares with numbers [2, 2], and their sum is 4.
+She can choose the last two squares with numbers [3, 2], and their sum is also 4.
+So, the function birthday should find and return the number of ways Lily can divide the chocolate bar into segments of length m where the sum of the numbers in each segment is equal to d. In this example, the function should return 2 because there are two valid ways to do so.
