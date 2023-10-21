@@ -46,3 +46,7 @@ output is: result = [1,0,1,0,1,0,1] etc.
 
 ## Pangram Problem
 The sentence contains all English alphabets, making it a pangram.
+
+## Permute two Arrays Problem
+from input arrays and some integers gets in function. 
+must be read constraints and explanation ty
