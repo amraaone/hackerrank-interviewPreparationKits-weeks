@@ -61,3 +61,6 @@ For example, let's say the chocolate bar is [2, 2, 1, 3, 2], Ron's birth day is 
 She can choose the first two squares with numbers [2, 2], and their sum is 4.
 She can choose the last two squares with numbers [3, 2], and their sum is also 4.
 So, the function birthday should find and return the number of ways Lily can divide the chocolate bar into segments of length m where the sum of the numbers in each segment is equal to d. In this example, the function should return 2 because there are two valid ways to do so.
+
+## XOR Strings Problem
+solved just return String result 
